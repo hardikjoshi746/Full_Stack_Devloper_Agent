@@ -1,0 +1,5 @@
+openai>=1.40.0
+crewai>=0.74.0
+crewai-tools>=0.13.0
+litellm>=1.43.0
+python-dotenv>=1.0.1
