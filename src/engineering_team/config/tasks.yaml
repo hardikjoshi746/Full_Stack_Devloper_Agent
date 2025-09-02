@@ -17,6 +17,8 @@ code_task:
     A python module that implements the design and achieves the requirements.
     IMPORTANT: Output ONLY the raw Python code without any markdown formatting, code block delimiters, or backticks.
     The output should be valid Python code that can be directly saved to a file and executed.
+    Do not use deprecated Gradio APIs like gr.inputs.*. Use gr.Slider, gr.Textbox, etc. directly.
+
   agent: backend_engineer
   context:
     - design_task
